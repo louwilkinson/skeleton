@@ -1,0 +1,16 @@
+{
+	"minimum-stability" : "dev",
+	"name" : "skeleton",
+	"description" : "a skeleton setup",
+	"type" : "project",
+	"keywords" : [
+		"skeleton",
+		"projects"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"skeleton\\src\\" : "src",
+			"skeletonTests\\tests\\" : "tests"
+		}
+	}
+}
