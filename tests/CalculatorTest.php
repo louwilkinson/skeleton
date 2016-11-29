@@ -23,7 +23,7 @@ class CalculatorTests extends \PHPUnit_Framework_TestCase
     public function addDataProvider() {
         return array(
             array(1,2,3),
-            array(0,0,2),
+            array(0,0,0),
             array(-1,-1,-2),
         );
     }
@@ -45,6 +45,7 @@ class CalculatorTests extends \PHPUnit_Framework_TestCase
     {
         // Create a stub for the Calculator class.
         $calculator = $this->getMockBuilder('Calculator')
+        ->setMethods(['add'])
         ->getMock();
     
         // Configure the stub.
