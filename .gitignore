@@ -3,7 +3,7 @@
 .buildpath
 .git
 .project
-.settings
+.settings/*
 
 
 ###########  Globals #####################
