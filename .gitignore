@@ -4,7 +4,8 @@
 .git
 .project
 .settings/*
-
+docs/*
+log/*
 
 ###########  Globals #####################
 # Compiled source #

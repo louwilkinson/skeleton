@@ -1,16 +1,17 @@
 {
-	"minimum-stability" : "dev",
-	"name" : "skeleton",
-	"description" : "a skeleton setup",
-	"type" : "project",
-	"keywords" : [
-		"skeleton",
-		"projects"
-	],
 	"autoload" : {
 		"psr-4" : {
-			"skeleton\\src\\" : "src",
-			"skeletonTests\\tests\\" : "tests"
+			"Skeleton\\" : "src/"
 		}
-	}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"" : "tests/"
+		}
+	},
+	"authors" : [{
+			"name" : "lou wilkinson",
+			"email" : "lou.e.wilkinson@gmail.com"
+		}
+	]
 }
