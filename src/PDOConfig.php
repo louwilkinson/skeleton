@@ -17,46 +17,33 @@ use \PDO;
  *
  * $ count = $pdo->query("SELECT count(1) FROM country")->fetchColumn();
  * @class PDOConfig
- * 
+ *
  * @package Skeleton
  * @author lou wilkinson <lou.e.wilkinson@gmail.com>
  */
 class PDOConfig extends PDO
 {
-    /**
-     * database type/engine...mysql, etc
-     * @var string
-     */
+
+    /** @var string database type/engine...mysql, etc */
     private $dbtype;
-    /**
-     * host name
-     * @var string
-     */
+
+    /** @var string host name */
     private $host;
-    /**
-     * database / schema name
-     * @var string
-     */
+
+    /** @var string database / schema name */
     private $database;
-    /**
-     * username for db access
-     * @var string
-     */
+
+    /**  @var string  username for db access */
     private $user;
-    /**
-     * password for db access
-     * @var string
-     */
+
+    /** @var string password for db access  */
     private $pass;
-    /**
-     * PDO options & properties
-     * @var setters
-     */
+
+    /** @var setters PDO options & properties  */
     private $opt;
 
     /**
      * create db handle for subsequent operations
-     *
      */
     public function __construct()
     {

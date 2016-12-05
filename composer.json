@@ -13,5 +13,8 @@
 			"name" : "lou wilkinson",
 			"email" : "lou.e.wilkinson@gmail.com"
 		}
-	]
+	],
+	"name" : "Skeleton",
+	"description" : "base framework for starting new projects",
+	"license" : "public domain"
 }
